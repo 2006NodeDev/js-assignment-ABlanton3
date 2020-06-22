@@ -12,7 +12,7 @@ function Person(name, age){//constructor function
     this.age = age
 }
 
-let Anna = new Person('Anna', 34)
+let anna = new Person('Anna', 34)
 
 class Human{ //class
     constructor(name, age){
@@ -21,11 +21,12 @@ class Human{ //class
     }
 }
 
-let Morgan = new Human("Morgan", 29)
+let morgan = new Human("Morgan", 29)
 
+console.log(amanda)
 console.log(`${amanda.name} is ${amanda.age} years old.`);
-console.log(Anna);
-console.log(Morgan);
+console.log(anna);
+console.log(morgan);
 
 
 
