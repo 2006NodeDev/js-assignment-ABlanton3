@@ -7,7 +7,7 @@ const amanda = { //object literal
     age: 28
 }
 
-function Person(name, age){//construction function
+function Person(name, age){//constructor function
     this.name = name;
     this.age = age
 }
